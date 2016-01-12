@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		969FED421C0A7A5300205853 /* BPMModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 969FED401C0A7A5300205853 /* BPMModel.xcdatamodeld */; };
+		969FED441C0A7C2400205853 /* BPMMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FED431C0A7C2400205853 /* BPMMeasurement.swift */; };
+		969FED461C0A7C6B00205853 /* ManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969FED451C0A7C6B00205853 /* ManagedObject.swift */; };
 		96B1FC461BF7F609002C2986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B1FC451BF7F609002C2986 /* AppDelegate.swift */; };
 		96B1FC481BF7F609002C2986 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B1FC471BF7F609002C2986 /* ViewController.swift */; };
 		96B1FC4B1BF7F609002C2986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B1FC491BF7F609002C2986 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		96B1FC501BF7F609002C2986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B1FC4E1BF7F609002C2986 /* LaunchScreen.storyboard */; };
 		96B1FC5B1BF7F60A002C2986 /* BPMTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B1FC5A1BF7F60A002C2986 /* BPMTrackerTests.swift */; };
 		96B1FC661BF7F6E4002C2986 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B1FC651BF7F6E4002C2986 /* CoreBluetooth.framework */; };
+		96B1FC691BF7F976002C2986 /* BTConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B1FC681BF7F976002C2986 /* BTConnectionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		969FED411C0A7A5300205853 /* BPMModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BPMModel.xcdatamodel; sourceTree = "<group>"; };
+		969FED431C0A7C2400205853 /* BPMMeasurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPMMeasurement.swift; sourceTree = "<group>"; };
+		969FED451C0A7C6B00205853 /* ManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedObject.swift; sourceTree = "<group>"; };
 		96B1FC421BF7F609002C2986 /* BPMTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPMTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B1FC451BF7F609002C2986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96B1FC471BF7F609002C2986 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +45,7 @@
 		96B1FC5A1BF7F60A002C2986 /* BPMTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPMTrackerTests.swift; sourceTree = "<group>"; };
 		96B1FC5C1BF7F60A002C2986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96B1FC651BF7F6E4002C2986 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		96B1FC681BF7F976002C2986 /* BTConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTConnectionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +91,11 @@
 			children = (
 				96B1FC451BF7F609002C2986 /* AppDelegate.swift */,
 				96B1FC471BF7F609002C2986 /* ViewController.swift */,
+				96B1FC681BF7F976002C2986 /* BTConnectionManager.swift */,
+				969FED431C0A7C2400205853 /* BPMMeasurement.swift */,
+				969FED451C0A7C6B00205853 /* ManagedObject.swift */,
 				96B1FC491BF7F609002C2986 /* Main.storyboard */,
+				969FED401C0A7A5300205853 /* BPMModel.xcdatamodeld */,
 				96B1FC4C1BF7F609002C2986 /* Assets.xcassets */,
 				96B1FC4E1BF7F609002C2986 /* LaunchScreen.storyboard */,
 				96B1FC511BF7F609002C2986 /* Info.plist */,
@@ -210,6 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				96B1FC481BF7F609002C2986 /* ViewController.swift in Sources */,
+				969FED441C0A7C2400205853 /* BPMMeasurement.swift in Sources */,
+				969FED461C0A7C6B00205853 /* ManagedObject.swift in Sources */,
+				969FED421C0A7A5300205853 /* BPMModel.xcdatamodeld in Sources */,
+				96B1FC691BF7F976002C2986 /* BTConnectionManager.swift in Sources */,
 				96B1FC461BF7F609002C2986 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +414,7 @@
 				96B1FC611BF7F60A002C2986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96B1FC621BF7F60A002C2986 /* Build configuration list for PBXNativeTarget "BPMTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -406,8 +423,22 @@
 				96B1FC641BF7F60A002C2986 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		969FED401C0A7A5300205853 /* BPMModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				969FED411C0A7A5300205853 /* BPMModel.xcdatamodel */,
+			);
+			currentVersion = 969FED411C0A7A5300205853 /* BPMModel.xcdatamodel */;
+			path = BPMModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 96B1FC3A1BF7F609002C2986 /* Project object */;
 }
